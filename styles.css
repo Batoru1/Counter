@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 242, 226);
+}
+
+main {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+}
+
+.result {
+  font-size: 3rem;
+  margin: 2rem 0;
+  font-size: 7rem;
+  font-weight: 800;
+  color: rgb(38, 38, 38);
+}
+
+h1 {
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  font-size: 4rem;
+  color: rgb(45, 26, 3);
+}
+
+button {
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 8px;
+  letter-spacing: 5px;
+  background-color: rgb(255, 242, 226);
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.btn-container button:hover {
+  color: white;
+  background-color: rgb(15, 33, 27);
+}

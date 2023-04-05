@@ -15,7 +15,11 @@ function changeNumba(e) {
   }
 
   if (count > 0) {
-    result.style.color = 'green';
+    countDisplay.style.color = 'green';
+  } else if (count < 0) {
+    countDisplay.style.color = 'red';
+  } else {
+    countDisplay.style.color = 'rgb(38, 38, 38)';
   }
 
   countDisplay.textContent = count;

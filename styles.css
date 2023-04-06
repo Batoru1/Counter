@@ -49,3 +49,24 @@ button {
   color: white;
   background-color: rgb(15, 33, 27);
 }
+
+/* media queries for smaller screens */
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 0 10px;
+  }
+
+  .result {
+    font-size: 4rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  button {
+    padding: 10px;
+    margin-right: 10px;
+  }
+}
+In this example, we added a media que
